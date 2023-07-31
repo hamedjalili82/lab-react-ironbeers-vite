@@ -16,13 +16,9 @@ function App() {
       <Navbar />
         <Routes> 
             <Route exact path="/" element={<HomePage />} />
-
             <Route exact path="/beers" element={<AllBeersPage/>} />
-          
-            <Route exact path="/random-beer" element={<RandomBeerPage/>} />
-          
+            <Route exact path="/random-beer" element={<RandomBeerPage/>} />          
             <Route exact path="/new-beer" element={<AddBeerPage/>} />
-
             <Route exact path="/beers/:beerId" element={<BeerDetailsPage/>} />
         </Routes>
     </div>
