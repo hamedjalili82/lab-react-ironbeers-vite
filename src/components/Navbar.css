@@ -1,0 +1,16 @@
+nav {
+    background-color: #938cff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-icon {
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.home-link {
+    text-decoration: none;
+}
