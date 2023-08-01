@@ -15,11 +15,12 @@ function App() {
         
       <Navbar />
         <Routes> 
-            <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/beers" element={<AllBeersPage/>} />
-            <Route exact path="/random-beer" element={<RandomBeerPage/>} />          
-            <Route exact path="/new-beer" element={<AddBeerPage/>} />
-            <Route exact path="/beers/:beerId" element={<BeerDetailsPage/>} />
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/beers" element={<AllBeersPage/>} />
+            <Route path="/random-beer" element={<RandomBeerPage/>} />          
+            <Route path="/new-beer" element={<AddBeerPage/>} />
+            <Route path="/beers/:beerId" element={<BeerDetailsPage/>} />
+            <Route path="*" element={<h2>404 page not found</h2>} />
         </Routes>
     </div>
   );
